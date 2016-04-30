@@ -20,7 +20,7 @@ module SQLiBrowser
       @core    = CoreOptions.new
       @browser = BrowserOptions.new
       @sqli    = SQLiOptions.new
-
+      @utils   = UtilsOptions.new
 
     end
 
