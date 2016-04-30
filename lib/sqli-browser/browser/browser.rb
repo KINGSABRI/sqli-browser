@@ -10,10 +10,13 @@
 =end
 
 module SQLiBrowser
+
+  attr_accessor :user_agent
+
   class Browser
 
     def initialize
-
+      @user_agent = "SQLiBrowser"
     end
 
   end
